@@ -1,0 +1,17 @@
+---
+declared-services:
+  watson-vision:
+    label: watson_vision_combined
+    plan: free
+applications:
+- services:
+  - Visual Recognition-cb
+  - AlchemyAPI-fb
+  name: sherlock-criminals
+  path: target/java-vision.war
+  random-route: true
+  memory: 512M
+  host: sherlock-criminals
+  domain: mybluemix.net
+  buildpack: liberty-for-java_v3_7-20170118-2046
+  instances: 1
