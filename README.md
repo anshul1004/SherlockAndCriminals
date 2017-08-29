@@ -5,4 +5,5 @@ Sherlock and Criminals is a project developed under the IBM Bluemix Hackathon jo
 This project touches the domain of criminal detection using IBM Watson Visual Recognition and Alchemy API's.
 
 This project first extracts faces from an uploaded image, analyses the faces, scores them accordingly against a trained classifier of criminal faces and generates the result, displaying the fraction of closest match.
-sdfsfsfsfsfdfdffadfafdfadadfdafadffad
+
+For more and detailed informtation, please refer to the attached documentation report PDF on this repository, titled 'Sherlock & Criminals Documentation Report.pdf'.
